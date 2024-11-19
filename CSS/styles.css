@@ -1,0 +1,729 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Hero{
+    width: 100%;
+    height:100vh;
+    /* border: 1px solid blue; */
+    background-image:url('../images/background.png');
+}
+.nav-container{
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    /* border: 1px solid blue; */
+}
+.nav {
+
+    height: 50px;
+    width: 300px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.icons{
+    width: 200px;
+    height: 50px;
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-around;
+}
+.main-content{
+    width: 500px;
+    height: 200px;
+    /* border: 1px solid white; */
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: white;
+    
+}
+.heading h1{
+width: 500px;
+height: 20px;
+font-size: 50px;
+margin-bottom: 100px;
+}
+.text p{
+width: 500px;
+height: 50px;
+margin-bottom: 5px;
+}
+.button_1 button{
+height: 40px;
+/* width: 100px; */
+/* padding-left: 20px;
+padding-right: 20px; */
+background: green;
+color: white;
+border-color: green;
+border-radius: 10px;
+border: none;
+padding: 0px 30px;
+}
+.service-page{
+    width: 100%;
+    height:40vh ;
+    /* border:1px solid blue ; */
+    margin-top: 100px;
+    
+}
+.service-page h1{
+    text-align: center;
+}
+.service{
+    width:100% ;
+    height:100vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 20px;
+}
+.ticket{
+width: 300px ;
+height: 150px;
+/* border: 1px solid green; */
+border-radius: 10px;
+}
+.hotel{
+    width: 300px ;
+    height: 150px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+.tour{
+    width: 300px ;
+    height: 150px;
+    /* border: 1px solid purple; */
+    border-radius: 10px;
+}
+.best-service-page{
+    width:100% ;
+    height:400px ;
+    /* border: 1px solid red; */
+    background-color: #0058530D;
+    
+}
+.service-text{
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    /* border: 1px solid blue; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+.ticket img{
+    /* padding:10px ; */
+    margin-top: 10px;
+    width: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.ticket h3{
+    margin: 10px 0px;
+}
+.hotel img{
+    margin-top: 10px;
+    width: 20px;
+}
+.hotel h3{
+    margin: 10px 0px;
+}
+.tour img{
+    margin-top: 10px;
+    width: 20px;  
+}
+.tour h3{
+    margin: 10px 0px;
+}
+.best-service{
+    width:100% ;
+    /* height:100vh ; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+    text-align: center;
+}
+.experience{
+    width: 300px ;
+    height: 150px;
+    /* border: 1px solid green; */
+    border-radius: 10px;
+}
+.happy{
+    width: 300px ;
+    height: 150px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+}
+.places{
+    width: 300px ;
+    height: 150px;
+    /* border: 1px solid gold; */
+    border-radius: 10px;
+}
+.travel{
+    width: 300px ;
+    height: 150px;
+    /* border: 1px solid purple; */
+    border-radius: 10px;
+}
+.ff{
+    margin-top: 10px;
+    width: 20px;   
+}
+.best-service h1{
+    margin: 10px 0px; 
+}
+.destination{
+    width: 100%;
+    height:400px ;
+    /* border:1px solid blue ; */
+    /* margin-top: 100px; */
+}
+.destination h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.tabs{
+    width: 1300px;
+    height: 340px;
+    /* border: 1px solid green; */
+    /* margin-top: 90px; */
+    display: flex;
+    justify-content: space-around;
+}
+.destination-tab{
+    width: 500px;
+    height: 340px;
+    /* border: 1px solid blue; */
+}
+.destination-tabs{
+    width: 500px;
+    height: 340px;
+    display: flex;
+    /* border: 1px solid blue; */
+    flex-direction: column;
+    gap: 15px; 
+ }
+.destination-tab img{
+    width: 500px ;
+    height:330px ;
+    /* border:1px solid green ; */
+    /* background-color: black; */
+}
+.sss{
+    width: 50px;
+    height:20px;
+    /* border: 1px solid red; 
+     */
+}
+
+.sss img{
+    width: 200px;
+    height:100px;
+    /* border: 1px solid red;  */
+}
+.s{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 280px;
+    height:100px;
+    /* border: 1px solid blue;  */
+}
+.ssss{
+    width: 250px;
+    height: 50px ;
+    /* border: 1px solid green; */
+    margin-top: 40px;
+}
+.ss{
+    width: 250px;
+    height: 50px ;
+    /* border: 1px solid green; */
+    margin-top: 40px;
+}
+.thailand{
+width: 500px;
+height:100px;
+/* border: 1px solid green; */
+display: flex;
+justify-content: space-between;
+/* border-radius: 30px; */
+}
+.indonesia{
+    width: 500px;
+height:100px;
+    /* border: 1px solid brown; */
+    display: flex;
+justify-content: space-between;
+}
+.new-zeland{
+    width: 500px;
+height: 100px;
+    /* border: 1px solid yellow; */
+    display: flex;
+justify-content: space-between;
+}
+.packages{
+    width: 100%;
+    height:700px ;
+    /* border:1px solid red; */
+    background-color: #ECF1F0;
+}
+.packages h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.packages-tab{
+width:100% ;
+height:50px;
+/* border:green  1px solid; */
+display: flex;
+justify-content: space-around;
+text-align: center;
+color: white;
+margin-top: 10px;
+ border-radius: 10px; 
+/* background-color: grey;  */
+}
+.deals{
+width: 100px;
+height: 40px;
+/* border: 1px solid blue; */
+border-radius: 10px;
+background-color: green;
+}
+.backpack{
+    width: 100px;
+    height: 40px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+background-color: grey;
+}
+.south{
+    width: 100px;
+    height: 40px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+background-color: grey;
+}
+.honeymoon{
+    width: 100px;
+    height: 40px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+background-color: grey;
+}
+.europe{
+    width: 100px;
+    height: 40px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+background-color: grey;
+text-align: center;
+}
+.more{
+    width: 100px;
+    height: 40px;
+    /* border: 1px solid blue; */
+    border-radius: 10px;
+background-color: grey;
+text-align: center;
+}
+.packages-box{
+    width:100%;
+    height:400px;
+    margin-top: 30px;
+/* border: 1px solid black; */
+display: flex;
+justify-content: space-around;
+
+
+}
+.In{
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid blue; */
+    background-color: white;
+} 
+.japan{
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+.mountain{
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid blue; */
+    background-color: white;
+    
+}
+.person{
+    width: 300px;
+    height: 250px;
+    /* border: 1px solid red;   */
+}
+.parts{
+    width: 300px;
+    height:30px;
+    /* border:1px solid green ; */
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 10px;
+    background-color: white;
+}
+.part1{
+    width: 150px;
+    height:20px;
+    /* border:1px solid red; */
+}
+.part2{
+    width: 150px;
+    height:20px;
+    /* border:1px solid black ; */
+}
+.more3{
+    width: 300px;
+    height:20px;
+    /* border:1px solid green ; */
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    margin-top:10px; 
+    background-color: white;  
+}
+.more1{
+    width: 150px;
+    height:20px;
+    /* border:1px solid red; */
+    text-align: right;
+}
+.more2{
+    width: 150px;
+    height:20px;
+    /* border:1px solid green; */
+    text-align: end;
+    text-decoration: underline;
+}
+.paragraph{
+    height: 35px;
+    width: 250px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    background-color: WHITE;
+}  
+.trip{
+width: 100%;
+height: 500px;
+/* border: 1px solid green; */
+margin-top: 120px;
+}
+.trip h3{
+    text-align: center;
+}
+.trip p{
+    text-align: center;
+}
+.trip3{
+    width: 1349px;
+height: 400px;
+/* border: 1px solid black; */
+margin-top: 50px;
+display: flex;
+justify-content: space-around;
+}
+.trip1{
+    width: 500px;
+    height: 350px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.trip2{
+    width: 400px;
+    height: 350px;
+    /* border: 1px solid purple;  */
+} 
+.book1{
+    width:400px;
+    height: 350px;
+    /* border: 1px solid purple;  */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.book2{
+    width: 400px;
+    height: 350px;
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+}
+.book3{
+    width: 400px;
+    height: 350px;
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+}
+.tripimage{
+    width: 100px;
+    height: 90px;
+    /* border: 1px solid green; */
+}
+ .trip2img{
+width: 400px;
+height: 350px;
+/* margin-top: 10px; */
+/* border: 1px solid red; */
+}
+ 
+.chose{
+    width: 300px;
+    height: 90px;
+    /* border: 1px solid red; */
+    display: flex; 
+    justify-content: space-around; 
+flex-direction: column;
+}
+.lorem{
+    width:250px;
+    height: 50px;
+    /* border: 1px solid blue; */
+    text-align:initial;
+}
+
+.about-us{
+    width:100% ;
+    height: 500px;
+    left: 910px;
+    gap: 0px;
+    border-radius: 15px 0px 0px 15px;
+    opacity: 0px;
+    /* border: 1px solid green; */
+    background-color: #ECF1F0;
+}
+.about-us h3{
+    text-align: center;
+}
+.about{
+    width:100% ;
+    height: 400px;
+    /* border: 1px solid blue; */
+    /* margin-left: 180px;
+    margin-right: auto; */
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+.button_2 button{
+    height: 40px;
+    margin-left: 600px;
+    margin-top: 50px;
+background: green;
+color: white;
+border-color: green;
+border-radius: 10px;
+border: none;
+padding: 0px 30px;
+}
+.subscribe-page{
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column ;
+    gap: 100px;
+    
+}
+.subscribe1{
+    width: 1000px;
+    height: 300px;
+    /* border: 1px solid green; */
+    border-radius: 50px;
+    /* margin-top: 50px; */
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left:200px;
+    margin-right: 200px;
+    background: #9fffec4b;
+}
+.subscribe1 h3{
+text-align: center;
+margin-top: 50px;
+/* border: 1px solid yellow; */
+width: 450px;
+height: 100px;
+margin-left: 250px;
+margin-right: 300px;
+/* color: grey; */
+border-radius: 20px;
+}
+.in-put{
+    width: 350px;
+    height: 100px;
+    /* border: 1px solid blue;  */
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 250px;
+    gap: 0px;
+
+}
+.in-put input{
+    width: 200px;
+    height: 40px;
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.button_3 button{
+    height: 40px;
+    /* /* margin-left: 600px; */
+    margin-top: 20px; 
+background: green;
+color: white;
+border-color: green;
+border-radius: 10px;
+border: none;
+padding: 0px 30px;
+}
+.subscribe2{
+    width: 1300px;
+    height: 400px;
+    /* border: 1px solid red; */
+   margin-left: 25px;
+   display: flex; 
+   justify-content: space-around;
+}
+.travel2{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid red; */
+   /* margin-left: 25px;  */
+   text-align: center;
+margin-top: 20px;
+}
+.travel2 p{
+    margin-top: 30px;
+    color: #5E6282;
+}
+.company{
+    width: 200px;
+    height: 300px;
+    /* border: 1px solid red; */
+   /* margin-left: 25px; */
+   margin-top: 20px;
+   text-align: center;
+}
+.company h4{
+    margin-top: 20px;
+    color: #5E6282;
+}
+.contact{
+    width: 200px;
+    height: 300px;
+    /* border: 1px solid red; */
+   /* margin-left: 25px;  */
+   margin-top: 20px;
+   text-align: center;
+}
+.contact h4{
+    margin-top: 20px;
+    color: #5E6282;
+}
+.mor{
+    width: 200px;
+    height: 300px;
+    /* border: 1px solid red; */
+   /* margin-left: 25px;  */
+   margin-top: 20px;
+   text-align: center;
+    
+
+}
+.mor h4{
+    margin-top: 20px;
+    color: #5E6282;
+}
+.face{
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid red; */
+   /* margin-left: 25px; */
+   margin-top: 20px; 
+   color: #5E6282;
+}
+.faceimage{
+    width: 250px;
+    height: 100px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    gap: -20px;
+
+}
+.fb{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid green; */
+}
+.ig{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid green; */
+}
+.blank{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid green; */
+}
+.google{
+    width: 250px;
+    height: 100px;
+    /* border: 1px solid blue; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.googleplay{
+    width: 100px;
+    height: 50px;
+    /* border: 1px solid green; */
+}
+.apple{
+    width: 100px;
+    height: 50px;
+    /* border: 1px solid green; */
+}
+.subscribe-page footer{
+    text-align: center;
+}
